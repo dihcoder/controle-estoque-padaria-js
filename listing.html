@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Listagem de Produtos</title>
+		<!-- FAVICONS -->
+		<link rel="apple-touch-icon" sizes="57x57" href="./assets/favicons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+        <link rel="manifest" href="./assets/favicons/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+		<!-- FAVICONS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+		<!-- Option 1: Include in HTML -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#"
+					><img src="./assets/images/bakery-icon.png" style="width: 50px;" alt="Logo"
+				/></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasNavbar"
+					aria-controls="offcanvasNavbar"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="offcanvas offcanvas-end"
+					tabindex="-1"
+					id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel"
+				>
+					<div class="offcanvas-header">
+						
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="offcanvas"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#home"
+									>Início</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Listagem</a>
+							</li>
+                            <li class="nav-item">
+								<a class="nav-link" href="#">Cadastro</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Carinhos
+								</a>
+								<ul class="dropdown-menu dropdown-menu-light">
+									<li><a class="dropdown-item" href="#">Carrinho 1</a></li>
+									<li><a class="dropdown-item" href="#">Carrinho 2</a></li>
+									<li><a class="dropdown-item" href="#">Carrinho 3</a></li>
+									<li><a class="dropdown-item" href="#">Carrinho 4</a></li>
+									<li>
+										<hr class="dropdown-divider" />
+									</li>
+									<li>
+										<a class="dropdown-item" href="#">Something else here</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+        
+
+		<!-- <article id="home">
+			<div
+				id="homeCarousel"
+				class="carousel slide carousel-fade"
+				data-bs-ride="carousel"
+			>
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#homeCarousel"
+						data-bs-slide-to="0"
+						class="active"
+						aria-current="true"
+						aria-label="Slide 1"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#homeCarousel"
+						data-bs-slide-to="1"
+						aria-label="Slide 2"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#homeCarousel"
+						data-bs-slide-to="2"
+						aria-label="Slide 3"
+					></button>
+				</div>
+				<div class="carousel-inner height-90">
+					<div class="carousel-item active">
+						<img
+							src="./assets/images/closeup-attractive-smiling-young-girl-pointing-fingers-face-poking-cheeks-white-background.png"
+							class="d-block w-100 h-00"
+							alt="Girl pointing fingers face poking cheeks"
+						/>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="./assets/images/health-lifestyle-beauty-concept-cheerful-cute-glamour-redhead-woman-nightwear-sleep-mask.png"
+							class="d-block w-100"
+							alt="Cute woman nightwear with sleep mask"
+						/>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="./assets/images/sincere-happy-charismatic-redhead-girl-smiling-close-eyes-enjoy-warm-summer-sunbeams-laughing-cheerf.png"
+							class="d-block w-100"
+							alt="Girl smiling with closed eyes"
+						/>
+					</div>
+				</div>
+			</div>
+		</article> -->
+
+		<article id="units" class="bg-body-tertiary">
+			<div class="container pt-4">
+				<h2 class="mb-3 text-center">RELAÇÃO DE PRODUTOS</h2>
+
+				<form id="search-for-filter" class="d-inline">
+					<p class=""><strong>Pesquisar por:</strong> </p>
+					<div class="form-check form-check-inline">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							id="name-search-checkbox"
+							value="name"
+							checked
+						/>
+						<label class="form-check-label" for="name-search-checkbox">Nome</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							id="category-search-checkbox"
+							value="category"
+						/>
+						<label class="form-check-label" for="category-search-checkbox">Categoria</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							id="brand-search-checkbox"
+							value="brand"
+						/>
+						<label class="form-check-label" for="brand-search-checkbox">Marca</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							id="details-search-checkbox"
+							value="details"
+						/>
+						<label class="form-check-label" for="details-search-checkbox">Detalhes</label>
+					</div>
+					<div class="form-check form-switch form-check-reverse">
+						<input class="form-check-input" type="checkbox" id="cart-checkbox">
+						<label class="form-check-label" for="cart-checkbox">Carrinho de compras</label>
+					</div>
+				</form>
+
+				<form id="search-form" class="my-4" action="">
+					<div class="form-group mb-2">
+						<input
+							type="search"
+							name="search"
+							class="form-control"
+							id="search"
+							placeholder="Pesquise pelo nome, categoria, marca ou descrição do produto"
+						/>
+					</div>
+				</form>
+
+				<div
+					class="row g-2"
+				>
+					<div class="col">
+						<table class="table table-sm table-striped table-hover">
+							<caption>
+								Produtos encontrados:
+								<span id="product-count"></span>
+							</caption>
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Nome</th>
+									<th scope="col">Categoria</th>
+									<th scope="col">Marca</th>
+									<th scope="col">Detalhes</th>
+									<th scope="col">Medida</th>
+									<th scope="col">Preço</th>
+								</tr>
+							</thead>
+							<tbody id="products-tbody"></tbody>
+						</table>
+					</div>
+					<div class="col-4 cart-column d-none">
+						<h4 class="text-center mb-4">Carrinho de compras</h4>
+						<table id="cart-table" class="table table-sm">
+							<thead>
+							  <tr>
+								<th scope="col">Qtde</th>
+								<th scope="col">Nome</th>
+								<th scope="col">Preço</th>
+							  </tr>
+							</thead>
+							<tbody id="cart-products">
+							</tbody>
+							<tfoot  id="cart-footer">
+								
+							</tfoot>
+						  </table>
+					</div>
+				</div>
+				
+				<p id="data-output"></p>
+			</div>
+		</article>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://code.jquery.com/jquery-3.7.1.min.js"
+			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			crossorigin="anonymous"
+		></script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
