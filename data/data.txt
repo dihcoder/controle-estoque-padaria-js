@@ -1081,7 +1081,7 @@
 	},
 	{
 		"name": "Cimegripe",
-		"category": "Medicamentos",
+		"category": "Mgigedicamentos",
 		"brand": "Cimegripe",
 		"details": null,
 		"measure": "Unidade",
