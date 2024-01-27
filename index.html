@@ -1,100 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Controle Estoque Padaria</title>
-		<!-- FAVICONS -->
-		<link
-			rel="apple-touch-icon"
-			sizes="57x57"
-			href="./assets/images/favicons/apple-icon-57x57.png"
-		/>
-		<link
-			rel="apple-touch-icon"
-			sizes="60x60"
-			href="./assets/images/favicons/apple-icon-60x60.png"
-		/>
-		<link
-			rel="apple-touch-icon"
-			sizes="72x72"
-			href="./assets/images/favicons/apple-icon-72x72.png"
-		/>
-		<link
-			rel="apple-touch-icon"
-			sizes="76x76"
-			href="./assets/images/favicons/apple-icon-76x76.png"
-		/>
-		<link
-			rel="apple-touch-icon"
-			sizes="114x114"
-			href="./assets/images/favicons/apple-icon-114x114.png"
-		/>
-		<link
-			rel="apple-touch-icon"
-			sizes="120x120"
-			href="./assets/images/favicons/apple-icon-120x120.png"
-		/>
-		<link
-			rel="apple-touch-icon"
-			sizes="144x144"
-			href="./assets/images/favicons/apple-icon-144x144.png"
-		/>
-		<link
-			rel="apple-touch-icon"
-			sizes="152x152"
-			href="./assets/images/favicons/apple-icon-152x152.png"
-		/>
-		<link
-			rel="apple-touch-icon"
-			sizes="180x180"
-			href="./assets/images/favicons/apple-icon-180x180.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="192x192"
-			href="./assets/images/favicons/android-icon-192x192.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="./assets/images/favicons/favicon-32x32.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="96x96"
-			href="./assets/images/favicons/favicon-96x96.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="16x16"
-			href="./assets/images/favicons/favicon-16x16.png"
-		/>
-		<link rel="manifest" href="./assets/images/favicons/manifest.json" />
-		<meta name="msapplication-TileColor" content="#ffffff" />
-		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-		<meta name="theme-color" content="#ffffff" />
-		<!-- FAVICONS -->
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-			crossorigin="anonymous"
-		/>
-		<!-- Option 1: Include in HTML -->
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-		/>
-		<link rel="stylesheet" href="./css/style.css" />
-	</head>
 
-	<body>
-		<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Controle Estoque Padaria</title>
+	<!-- FAVICONS -->
+	<link rel="apple-touch-icon" sizes="57x57" href="./assets/images/favicons/apple-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="./assets/images/favicons/apple-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="./assets/images/favicons/apple-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="./assets/images/favicons/apple-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="./assets/images/favicons/apple-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="./assets/images/favicons/apple-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="./assets/images/favicons/apple-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="./assets/images/favicons/apple-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicons/apple-icon-180x180.png" />
+	<link rel="icon" type="image/png" sizes="192x192" href="./assets/images/favicons/android-icon-192x192.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicons/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicons/favicon-96x96.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicons/favicon-16x16.png" />
+	<link rel="manifest" href="./assets/images/favicons/manifest.json" />
+	<meta name="msapplication-TileColor" content="#ffffff" />
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+	<meta name="theme-color" content="#ffffff" />
+	<!-- FAVICONS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+	<!-- Option 1: Include in HTML -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+	<link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+	<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
 			<div class="container">
 				<a class="navbar-brand" href="#"
 					><img src="./assets/images/half-logo (126x20).png" alt="Logo"
@@ -171,7 +109,7 @@
 			</div>
 		</nav> -->
 
-		<!-- <article id="home">
+	<!-- <article id="home">
 			<div
 				id="homeCarousel"
 				class="carousel slide carousel-fade"
@@ -225,123 +163,96 @@
 			</div>
 		</article> -->
 
-		<article id="units" class="bg-body-tertiary">
-			<div class="container pt-4">
-				<h2 class="mb-3 text-center">RELAÇÃO DE PRODUTOS</h2>
+	<article id="units" class="bg-body-secondary">
+		<div class="container pt-4">
+			<h2 class="display-5 my-4 text-center">RELAÇÃO DE PRODUTOS</h2>
 
-				<form id="search-for-filter" class="d-inline">
-					<p class=""><strong>Pesquisar por:</strong> </p>
-					<div class="form-check form-check-inline">
-						<input
-							class="form-check-input"
-							type="checkbox"
-							id="name-search-checkbox"
-							value="name"
-							checked
-						/>
+			<form id="search-for-filter" class="d-flex flex-wrap gap-2 align-items-end">
+				<div class="flex-grow-1">
+					<p class="mb-1"><strong>Pesquisar por:</strong> </p>
+					<div class="form-check form-check-inline col-5 col-sm-auto flex-fill">
+						<input class="form-check-input" type="checkbox" id="name-search-checkbox" value="name"
+							checked />
 						<label class="form-check-label" for="name-search-checkbox">Nome</label>
 					</div>
-					<div class="form-check form-check-inline">
-						<input
-							class="form-check-input"
-							type="checkbox"
-							id="category-search-checkbox"
-							value="category"
-						/>
+					<div class="form-check form-check-inline col-5 col-sm-auto flex-fill">
+						<input class="form-check-input" type="checkbox" id="category-search-checkbox"
+							value="category" />
 						<label class="form-check-label" for="category-search-checkbox">Categoria</label>
 					</div>
-					<div class="form-check form-check-inline">
-						<input
-							class="form-check-input"
-							type="checkbox"
-							id="brand-search-checkbox"
-							value="brand"
-						/>
+					<div class="form-check form-check-inline col-5 col-sm-auto flex-fill">
+						<input class="form-check-input" type="checkbox" id="brand-search-checkbox" value="brand" />
 						<label class="form-check-label" for="brand-search-checkbox">Marca</label>
 					</div>
-					<div class="form-check form-check-inline">
-						<input
-							class="form-check-input"
-							type="checkbox"
-							id="details-search-checkbox"
-							value="details"
-						/>
+					<div class="form-check form-check-inline col-5 col-sm-auto flex-fill">
+						<input class="form-check-input" type="checkbox" id="details-search-checkbox" value="details" />
 						<label class="form-check-label" for="details-search-checkbox">Detalhes</label>
 					</div>
-					<div class="form-check form-switch form-check-reverse">
-						<input class="form-check-input" type="checkbox" id="cart-checkbox">
-						<label class="form-check-label" for="cart-checkbox">Carrinho de compras</label>
-					</div>
-				</form>
+				</div>
 
-				<form id="search-form" class="my-4" action="">
-					<div class="form-group mb-2">
-						<input
-							type="search"
-							name="search"
-							class="form-control"
-							id="search"
-							placeholder="Pesquise pelo nome, categoria, marca ou descrição do produto"
-						/>
-					</div>
-				</form>
+				<div class="form-check form-switch form-check-reverse">
+					<input class="form-check-input" type="checkbox" id="cart-checkbox">
+					<label class="form-check-label" for="cart-checkbox">Carrinho de compras</label>
+				</div>
+			</form>
 
-				<div
-					class="row g-2"
-				>
-					<div class="col">
-						<table class="table table-sm table-striped table-hover">
-							<caption>
-								Produtos encontrados:
-								<span id="product-count"></span>
-							</caption>
-							<thead>
-								<tr>
-									<th scope="col">#</th>
-									<th scope="col">Nome</th>
-									<th scope="col">Categoria</th>
-									<th scope="col">Marca</th>
-									<th scope="col">Detalhes</th>
-									<th scope="col">Medida</th>
-									<th scope="col">Preço</th>
-								</tr>
-							</thead>
-							<tbody id="products-tbody"></tbody>
-						</table>
-					</div>
-					<div class="col-4 cart-column d-none">
-						<h4 class="text-center mb-4">Carrinho de compras</h4>
-						<table id="cart-table" class="table table-sm">
-							<thead>
-							  <tr>
+			<form id="search-form" class="my-3" action="">
+				<div class="form-group mb-2">
+					<input type="search" name="search" class="form-control" id="search"
+						placeholder="Pesquise pelo nome, categoria, marca ou descrição do produto" />
+				</div>
+			</form>
+
+			<div class="row g-2">
+				<div class="col" style="overflow-x:scroll;">
+					<table id="products-table" class="table table-dark table-sm table-striped table-hover">
+						<caption>
+							Produtos encontrados:
+							<span id="product-count"></span>
+						</caption>
+						<thead>
+							<tr>
+								<th scope="col">#</th>
+								<th scope="col">Nome</th>
+								<th scope="col">Categoria</th>
+								<th scope="col">Marca</th>
+								<th scope="col">Detalhes</th>
+								<th scope="col">Medida</th>
+								<th scope="col">Preço</th>
+							</tr>
+						</thead>
+						<tbody id="products-tbody"></tbody>
+					</table>
+				</div>
+				<div class="col-4 cart-column d-none">
+					<h4 class="text-center mb-4">Carrinho de compras</h4>
+					<table id="cart-table" class="table table-sm">
+						<thead>
+							<tr>
 								<th scope="col">Qtde</th>
 								<th scope="col">Nome</th>
 								<th scope="col">Preço</th>
-							  </tr>
-							</thead>
-							<tbody id="cart-products">
-							</tbody>
-							<tfoot  id="cart-footer">
-								
-							</tfoot>
-						  </table>
-					</div>
-				</div>
-				
-				<p id="data-output"></p>
-			</div>
-		</article>
+							</tr>
+						</thead>
+						<tbody id="cart-products">
+						</tbody>
+						<tfoot id="cart-footer">
 
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://code.jquery.com/jquery-3.7.1.min.js"
-			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-			crossorigin="anonymous"
-		></script>
-		<script src="./js/script.js"></script>
-	</body>
+						</tfoot>
+					</table>
+				</div>
+			</div>
+
+			<p id="data-output"></p>
+		</div>
+	</article>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="./js/script.js"></script>
+</body>
+
 </html>
