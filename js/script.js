@@ -5,7 +5,7 @@ const TB_PRODUCT_COUNT = $('#product-count');
 const SEARCH_BAR = $('#search');
 
 $.ajax({
-	url: '../data/data.txt',
+	url: '../data/data.json',
 	success: function (data) {
 		JSON_DATA = JSON.parse(data);
 		showAllProducts();
