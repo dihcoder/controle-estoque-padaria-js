@@ -5,8 +5,8 @@
 :root {
 	--primary-clr: #33367E;
 	--secondary-clr: #870667;
-	--transparent-gray-clr-100: rgba(0,0,0,.05);
-	--transparent-gray-clr-300: rgba(0,0,0,.1);
+	--transparent-gray-clr-100: rgba(0, 0, 0, .05);
+	--transparent-gray-clr-300: rgba(0, 0, 0, .1);
 }
 
 .navbar-toggler:focus {
@@ -19,18 +19,14 @@
 	border: 0 !important;
 }
 
-.carousel-item img {
-	height: 100vh;
-	width: auto;
-	object-fit: cover;
-}
-
 .card-link {
 	text-decoration: none;
 	color: var(--primary-clr);
 }
 
-.card-link:hover, .nav-link:hover, .nav-link.active {
+.card-link:hover,
+.nav-link:hover,
+.nav-link.active {
 	text-decoration: underline;
 	color: var(--secondary-clr);
 }
@@ -54,7 +50,9 @@
 }
 
 @media (max-width: 1080px) {
-	.nav-item, .dropdown-item {
+
+	.nav-item,
+	.dropdown-item {
 		font-size: 2rem;
 	}
 
