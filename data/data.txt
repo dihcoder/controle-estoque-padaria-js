@@ -24,6 +24,14 @@
 		"price": 5
 	},
 	{
+		"name": "Cerveja Devassa",
+		"category": "Bebidas",
+		"brand": "Devassa",
+		"details": null,
+		"measure": null,
+		"price": 5
+	},
+	{
 		"name": "Cerveja latão",
 		"category": "Bebidas",
 		"brand": null,
@@ -37,7 +45,23 @@
 		"brand": "Skol",
 		"details": "Latão",
 		"measure": null,
-		"price": 6
+		"price": 6.5
+	},
+	{
+		"name": "Cerveja Skol latinha",
+		"category": "Bebidas",
+		"brand": "Skol",
+		"details": "Latinha",
+		"measure": null,
+		"price": 4.5
+	},
+	{
+		"name": "Cerveja Itaipava Zero",
+		"category": "Bebidas",
+		"brand": "Itaipava",
+		"details": "Zero",
+		"measure": null,
+		"price": 5
 	},
 	{
 		"name": "Cerveja Itaipava latão",
@@ -189,7 +213,7 @@
 		"brand": "Heineken",
 		"details": null,
 		"measure": null,
-		"price": 6
+		"price": 7
 	},
 	{
 		"name": "Água 1,5L",
@@ -374,6 +398,14 @@
 		"details": null,
 		"measure": "Lata",
 		"price": 6.7
+	},
+	{
+		"name": "Milho para pipoca",
+		"category": "Mercearia",
+		"brand": "Kicaldo",
+		"details": null,
+		"measure": "500g",
+		"price": 6.5
 	},
 	{
 		"name": "Ervilha enlatada Bonare",
@@ -600,6 +632,14 @@
 		"price": 1.5
 	},
 	{
+		"name": "Absorvente",
+		"category": "Limpeza e Higiene",
+		"brand": null,
+		"details": null,
+		"measure": null,
+		"price": 6.5
+	},
+	{
 		"name": "Filé de peito de frango",
 		"category": "Frios",
 		"brand": null,
@@ -630,6 +670,30 @@
 		"details": null,
 		"measure": null,
 		"price": null
+	},
+	{
+		"name": "Frango a Passarinho",
+		"category": "Frios",
+		"brand": null,
+		"details": "Pesar",
+		"measure": "O quilo",
+		"price": 19.5
+	},
+	{
+		"name": "Costela a Passarinho",
+		"category": "Frios",
+		"brand": null,
+		"details": "Pesar",
+		"measure": "O quilo",
+		"price": 28
+	},
+	{
+		"name": "Mortadela",
+		"category": "Frios",
+		"brand": null,
+		"details": null,
+		"measure": "Rolo pequeno",
+		"price": 6
 	},
 	{
 		"name": "Goiabada",
@@ -848,11 +912,11 @@
 		"price": 27
 	},
 	{
-		"name": "Linguiça",
+		"name": "Linguiça mineira",
 		"category": "Frios",
 		"brand": null,
 		"details": "Pesar",
-		"measure": null,
+		"measure": "O quilo",
 		"price": 27
 	},
 	{
@@ -926,6 +990,14 @@
 		"details": null,
 		"measure": null,
 		"price": 4
+	},
+	{
+		"name": "Misto quente",
+		"category": "Lanches",
+		"brand": null,
+		"details": "Pão com queijo e presunto",
+		"measure": "Unidade",
+		"price": 5
 	},
 	{
 		"name": "Pipoca pacotinho",
@@ -1081,7 +1153,7 @@
 	},
 	{
 		"name": "Cimegripe",
-		"category": "Mgigedicamentos",
+		"category": "Medicamentos",
 		"brand": "Cimegripe",
 		"details": null,
 		"measure": "Unidade",
